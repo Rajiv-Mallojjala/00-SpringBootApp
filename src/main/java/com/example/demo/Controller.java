@@ -11,4 +11,9 @@ public class Controller {
 		String msg = "Welcome to Ashok IT";
 		return msg ;		
 	}
+	@GetMapping("/greet")
+	public String greetMessage() {
+		String msg = "Have a nice day!";
+		return msg ;		
+	}
 }
